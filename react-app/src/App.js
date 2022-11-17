@@ -36,7 +36,7 @@ function App() {
         .typeString("martial artist")
         .pauseFor(1000)
         .deleteAll()
-        .typeString("Welcome to my website!")
+        .typeString("Welcome to my portfolio!")
         .pauseFor(1000000)
         .start();
       }}
