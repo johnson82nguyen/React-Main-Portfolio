@@ -1,0 +1,21 @@
+.homeContainer {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    margin: auto;
+    padding-top: 500px;
+}
+
+
+.header_name {
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+.typewriter {
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: 100;
+}

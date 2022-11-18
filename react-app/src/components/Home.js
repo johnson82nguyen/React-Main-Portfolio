@@ -4,8 +4,8 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
-            <h1 className="header">
+        <div id="home" className="homeContainer">
+            <h1 className="header_name">
                 John Nguyen
             </h1>
             <h3 className="typewriter">
