@@ -1,6 +1,19 @@
 .about {
+    margin-top: 1000px;
+    padding-top: 45px
+    ;
     align-items: center;
     text-align: center;
-    padding-top: 1000px;
-    min-height: 100vh;
+    height: 500px;
+    background-color: #8dde8d;
+    margin-bottom: 1000px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.paragraph1 {
+    font-weight: bold;
+}
+.aboutHeader {
+    font-size: 50px;
 }

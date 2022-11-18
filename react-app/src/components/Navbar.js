@@ -14,9 +14,10 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
-                John's Website
-                </a>
+            <div className="logo">
+                <Link to="home" spy={true} smooth={true} offset={50} duration={500} onclick={closeMenu}> John's Website </Link>
+            </div>
+
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
@@ -27,7 +28,7 @@ const Navbar = () => {
                         <Link to="home" spy={true} smooth={true} offset={50} duration={500} onclick={closeMenu}> Home </Link>
                     </li>
                     <li className='nav-item'>
-                    <Link to="about" spy={true} offset={50} smooth={true} duration={500} onclick={closeMenu}> About </Link>
+                    <Link to="about" spy={true} offset={-100} smooth={true} duration={500} onclick={closeMenu}> About </Link>
                     </li>
                     <li className='nav-item'>
                     <Link to="projects" spy={true} offset={50} smooth={true} duration={500} onclick={closeMenu}> Projects </Link>
