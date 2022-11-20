@@ -10,6 +10,7 @@
     background-color: skyblue;
 }
 
+
 ul {
     list-style: none;
 }
@@ -18,7 +19,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1240px;
+    max-width: 10000px;
     margin: auto;
     height: 100%;
     padding: 0 1rem;
@@ -33,6 +34,10 @@ ul {
     color: #ffffff;
 }
 
+.nav-item:hover {
+    color: black;
+}
+
 .header .navbar img {
     width: 250px;
     height: auto;
@@ -40,16 +45,21 @@ ul {
 
 .header .nav-menu {
     display: flex;
+    justify-content: flex-end;
 }
 
 .header .nav-item {
+    align-items: flex-end;
     padding: 1rem;
-    font-weight: 500;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: width 2s;
 }
 
 .header .nav-item a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+    align-items: center;
+    border-bottom: 2px solid teal;
 }
 
 .hamburger {
@@ -96,3 +106,8 @@ ul {
         width: 150px;
     }
 }
+
+a:hover {
+    cursor: pointer;
+}
+

@@ -15,7 +15,6 @@ const Navbar = () => {
         <div className='header'>
             <nav className='navbar'>
             <div className="logo">
-                <Link to="home" spy={true} smooth={true} offset={50} duration={500} onclick={closeMenu}> John's Website </Link>
             </div>
 
                 <div className='hamburger' onClick={handleClick}>
@@ -23,6 +22,7 @@ const Navbar = () => {
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
 
                 </div>
+                
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
                         <Link to="home" spy={true} smooth={true} offset={50} duration={500} onclick={closeMenu}> Home </Link>

@@ -17,3 +17,16 @@
 .aboutHeader {
     font-size: 50px;
 }
+
+.aboutMeIcons {
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+ a { 
+    padding-right: 10px;
+ }
+
+ a:visited {
+    color: white;
+ }
