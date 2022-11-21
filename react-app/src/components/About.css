@@ -1,7 +1,7 @@
 .about {
+    width: 100%;
     margin-top: 1000px;
-    padding-top: 45px
-    ;
+    padding-top: 45px;
     align-items: center;
     text-align: center;
     height: 500px;
@@ -15,7 +15,7 @@
     font-weight: bold;
 }
 .aboutHeader {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .aboutMeIcons {

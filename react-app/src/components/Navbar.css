@@ -8,6 +8,7 @@
     transition: .3s ease-in;
     overflow: hidden;
     background-color: skyblue;
+    opacity: 75%;
 }
 
 

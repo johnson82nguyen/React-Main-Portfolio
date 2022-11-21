@@ -1,8 +1,31 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect'
-import './Home.css'
+import './Home.css';
+import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 const Home = () => {
+
+    const Button = styled.button`
+        background-color: skyblue;
+        color: white;
+        text-align: center;
+        align-items: center;
+        padding: 20px 32px;
+        border-radius: 5px;
+        border: 0;
+        outline: 0;
+        box-shadow: 0px 2px 2px lightgray;
+        margin-top: 80px;
+        transition: ease background-color 250ms;
+        font-family: sans-serif;
+        font-weight: bold;
+        border-outline: 0px;
+        &:hover {
+            background-color: #9FD8EF;
+        }
+    `
+   
     return (
         <div id="home" className="homeContainer">
             <h1 className="header_name">
@@ -38,6 +61,14 @@ const Home = () => {
             }}
             />
             </h3>
+
+            <div className="button-container">
+                <Link to="about" spy={true} offset={-100} smooth={true} duration={500}>
+                    <Button> 
+                        About Me
+                    </Button>
+                </Link>
+            </div>
         </div>
     )
 }
