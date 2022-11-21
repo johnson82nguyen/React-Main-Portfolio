@@ -4,8 +4,31 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaSpotify } from 'react-icons/fa';
+import { Link } from 'react-scroll';
+import styled from 'styled-components';
 
 const About = () => {
+
+    const Button = styled.button`
+        background-color: gray;
+        color: white;
+        text-align: center;
+        align-items: center;
+        padding: 20px 32px;
+        border-radius: 5px;
+        margin-top: 35px;
+        border: 0;
+        outline: 0;
+        box-shadow: 0px 2px 2px lightgray;
+        transition: ease background-color 250ms;
+        font-family: sans-serif;
+        font-weight: bold;
+        border-outline: 0px;
+        &:hover {
+            background-color: #696969;
+        }
+    `
+
     return (
         <div className='about' id='about'>
             <div className='container'>
@@ -21,7 +44,7 @@ const About = () => {
                 </div>
             </div>
 
-
+            <h3 className="socials">Connect with me</h3>
             <div className="aboutMeIcons"> 
             <a href="https://github.com/johnson82nguyen" style={{color: 'gray'}} title="github" target="_blank"><FaGithub/></a>
             <a href="https://www.linkedin.com/in/johnson-nguyen82/" style={{color: 'skyblue'}} target="_blank"><FaLinkedin/></a>
@@ -29,6 +52,13 @@ const About = () => {
             <a href="https://open.spotify.com/user/king.johnson2015" style={{color: 'white'}} target="_blank"><FaSpotify/></a>
 
             </div>
+            <div className="button-container">
+            <Link to="projects" spy={true} offset={-100} smooth={true} duration={500}>
+                <Button> 
+                    Projects
+                </Button>
+            </Link>
+        </div>
         </div>
     )
 }

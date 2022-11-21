@@ -33,6 +33,9 @@ const Home = () => {
             </h1>
             <h3 className="typewriter">
             <Typewriter
+                options={{
+                    loop:true
+                }}
                 onInit={(typewriter) => {
                 typewriter
                 .changeDelay(30)
@@ -56,7 +59,7 @@ const Home = () => {
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("Welcome to my portfolio!")
-                .pauseFor(1000000)
+                .pauseFor(5000)
                 .start();
             }}
             />
