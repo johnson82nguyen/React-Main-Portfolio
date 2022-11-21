@@ -4,6 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaSpotify } from 'react-icons/fa';
+import { FaTwitterSquare } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
 
@@ -50,12 +51,13 @@ const About = () => {
             <a href="https://www.linkedin.com/in/johnson-nguyen82/" style={{color: 'skyblue'}} target="_blank"><FaLinkedin/></a>
             <a href="https://www.instagram.com/j_nguyen32" style={{color: 'pink'}}target="_blank"><FaInstagram/></a>
             <a href="https://open.spotify.com/user/king.johnson2015" style={{color: 'white'}} target="_blank"><FaSpotify/></a>
+            <a href="https://twitter.com/j_nguyen32" style={{color: '#89cff0'}} target="_blank"><FaTwitterSquare/></a>
 
             </div>
             <div className="button-container">
-            <Link to="projects" spy={true} offset={-100} smooth={true} duration={500}>
+            <Link to="resume" spy={true} offset={-100} smooth={true} duration={500}>
                 <Button> 
-                    Projects
+                    Resume
                 </Button>
             </Link>
         </div>
