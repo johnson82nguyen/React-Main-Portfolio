@@ -10,7 +10,7 @@ import styled from 'styled-components';
 const About = () => {
 
     const Button = styled.button`
-        background-color: gray;
+        background-color: #DCDCDC;
         color: white;
         text-align: center;
         align-items: center;
@@ -25,7 +25,7 @@ const About = () => {
         font-weight: bold;
         border-outline: 0px;
         &:hover {
-            background-color: #696969;
+            background-color: #E0E0E0;
         }
     `
 
