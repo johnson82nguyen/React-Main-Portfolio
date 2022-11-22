@@ -55,9 +55,9 @@ const About = () => {
 
             </div>
             <div className="button-container">
-            <Link to="resume" spy={true} offset={-100} smooth={true} duration={500}>
+            <Link to="goals" spy={true} offset={-100} smooth={true} duration={500}>
                 <Button> 
-                    Resume
+                    Goals
                 </Button>
             </Link>
         </div>

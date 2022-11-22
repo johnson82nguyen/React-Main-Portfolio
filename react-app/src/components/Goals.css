@@ -23,3 +23,9 @@
     color: transparent;
     size: 1px;
 }
+
+
+.goals-button-container {
+    display: flex;
+    justify-content: center;
+}
