@@ -30,8 +30,8 @@ const Projects = () => {
 
     return (
         <>
-        <h1 className="goalsHeader">Goals</h1>
-        <div id="goals" className="projectContainer">
+        <h1 className="goalsHeader">Impossible goals</h1>
+        <div id="goals" className="goalsContainer">
             <Document file={samplePDF}>
                 <Page pageNumber={1}/>
             </Document>
