@@ -38,8 +38,7 @@ const About = () => {
                     <span className='line'></span>
                     <p className="paragraph1">Hi my name is John Nguyen. I am a software engineer and a
                     graduate from the University Of Minnesota Twin-Cities. </p>
-                     <p className="paragraph1"> I'm passionate about programming and always eager to learn new technologies. Some
-                     of these interests include video game programming, AI/machine learning, and web development. </p>
+                     <p className="paragraph1"> I'm passionate about building software applications and am excited to learn and make new friends on this journey. </p>
                      <p className="paragraph1"> Outside of work, I like to spend time with my girlfriend and explore foods, events, parks, and beaches around Los Angeles.</p>
                      <p className="paragraph1"> My other hobbies also include Tennis, Basketball, Video gaming, and I just started picking up Brazilian Jiu Jitsu.</p>
                 </div>
@@ -55,7 +54,7 @@ const About = () => {
 
             </div>
             <div className="button-container">
-            <Link to="goals" spy={true} offset={-100} smooth={true} duration={500}>
+            <Link to="goals" spy={true} offset={-250} smooth={true} duration={500}>
                 <Button> 
                     Goals
                 </Button>

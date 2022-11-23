@@ -58,7 +58,7 @@ const Home = () => {
                 .typeString("martial artist")
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("Welcome to my portfolio!")
+                .typeString("Welcome to my website!")
                 .pauseFor(5000)
                 .start();
             }}
@@ -66,7 +66,7 @@ const Home = () => {
             </h3>
 
             <div className="button-container">
-                <Link to="about" spy={true} offset={-100} smooth={true} duration={500}>
+                <Link to="about" spy={true} offset={-300} smooth={true} duration={500}>
                     <Button> 
                         About Me
                     </Button>
