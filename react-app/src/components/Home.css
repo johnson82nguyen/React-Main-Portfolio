@@ -4,6 +4,7 @@
     text-align: center;
     align-items:center;
     margin: auto;
+    overflow: hidden;
     padding-top: 500px;
 }
 

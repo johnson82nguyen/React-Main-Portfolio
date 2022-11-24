@@ -16,6 +16,7 @@ const Projects = () => {
     padding: 20px 32px;
     border-radius: 5px;
     margin-top: 35px;
+    margin-bottom: 500px;
     border: 0;
     outline: 0;
     box-shadow: 0px 2px 2px lightgray;
@@ -30,7 +31,7 @@ const Projects = () => {
 
     return (
         <>
-        <h1 className="goalsHeader">Impossible goals</h1>
+        <h1 className="goalsHeader">Goals</h1>
         <div id="goals" className="goalsContainer">
             <Document file={samplePDF}>
                 <Page pageNumber={1}/>

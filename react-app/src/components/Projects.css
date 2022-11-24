@@ -3,12 +3,13 @@
 .projectsContainer {
     margin-top: 100px;
     padding: 10px;
-    border: 2px solid black;
-    height: 1000px;
-    width: 100%;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    background-color:azure;
+    height: 600px;
+    max-width: 99%;
+    overflow: hidden;
+    background-color: #D5DBDE;
+    padding-bottom: 100px;
+    margin-bottom: 15%;
+    overflow: scroll;
 }
 
 .portfolioHeader {
@@ -26,14 +27,21 @@
     text-align: center;
     float:left;
     margin-left: 5%;
-
+    background-image: url("../images/battleship.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .3s ease-out;
+    filter: brightness(80%);
 }
 
-.project1:hover {
-    background-color: skyblue;
+.project1:hover{
     transition: .3s ease-in;
-
+    color:azure;
+    filter: brightness(50%);
 }
+
+
+
 
 .project2 {
     border: 2px solid black;
@@ -42,6 +50,16 @@
     height: 400px;
     text-align:center;
     float: left;
+    background-image: url("../images/react_website_image.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+}
+
+.project2:hover {
+    transition: .3s ease-out;
+    filter: brightness(30%);
+    color: skyblue;
 }
 
 .project3 {
@@ -51,6 +69,16 @@
     width: 30%;
     text-align:center;
     float: left;
+    background-image: url("../images/turtle_race.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+}
+
+.project3:hover {
+    transition: .3s ease-in;
+    color:white;
+    filter: brightness(30%);
 }
 
 .project4 {
