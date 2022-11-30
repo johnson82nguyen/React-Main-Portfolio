@@ -46,13 +46,7 @@ const Projects = () => {
                 </Button>
             </Link>
         </div>
-        
-        
         </>
-        
-
-        
-
     )
 }
 

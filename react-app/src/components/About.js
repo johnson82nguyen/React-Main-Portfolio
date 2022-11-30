@@ -46,20 +46,20 @@ const About = () => {
 
             <h3 className="socials">Connect with me</h3>
             <div className="aboutMeIcons"> 
-            <a href="https://github.com/johnson82nguyen" style={{color: 'gray'}} title="github" target="_blank"><FaGithub/></a>
-            <a href="https://www.linkedin.com/in/johnson-nguyen82/" style={{color: 'skyblue'}} target="_blank"><FaLinkedin/></a>
-            <a href="https://www.instagram.com/j_nguyen32" style={{color: 'pink'}}target="_blank"><FaInstagram/></a>
-            <a href="https://open.spotify.com/user/king.johnson2015" style={{color: 'white'}} target="_blank"><FaSpotify/></a>
-            <a href="https://twitter.com/j_nguyen32" style={{color: '#89cff0'}} target="_blank"><FaTwitterSquare/></a>
+            <a href="https://github.com/johnson82nguyen" style={{color: 'gray'}} title="GitHub" target="_blank"><FaGithub/></a>
+            <a href="https://www.linkedin.com/in/johnson-nguyen82/" style={{color: 'skyblue'}} title="LinkedIn" target="_blank"><FaLinkedin/></a>
+            <a href="https://www.instagram.com/j_nguyen32" style={{color: 'pink'}} title="Instagram" target="_blank"><FaInstagram/></a>
+            <a href="https://open.spotify.com/user/king.johnson2015" style={{color: 'white'}} title="Spotify" target="_blank"><FaSpotify/></a>
+            <a href="https://twitter.com/j_nguyen32" style={{color: '#89cff0'}} title="Twitter" target="_blank"><FaTwitterSquare/></a>
 
             </div>
             <div className="button-container">
-            <Link to="goals" spy={true} offset={-250} smooth={true} duration={500}>
-                <Button> 
-                    Goals
-                </Button>
-            </Link>
-        </div>
+                <Link to="goals" spy={true} offset={-250} smooth={true} duration={500}>
+                    <Button> 
+                        Goals
+                    </Button>
+                </Link>
+            </div>
         </div>
     )
 }
