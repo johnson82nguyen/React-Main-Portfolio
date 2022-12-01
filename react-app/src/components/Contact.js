@@ -112,14 +112,14 @@ const StyledContactForm = styled.div`
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      background: #DCDCDC;
+      background: skyblue;
       color: white;
       border: none;
       align-self: center;
     }
 
     input[type="submit"]:hover {
-        background-color: #E0E0E0;
+        background-color: #9FD8EF;
     }
   }
 `;
