@@ -29,13 +29,14 @@ const Contact = () => {
         }
       );
       e.target.reset();
+      alert("Thanks for sending a message!");
   };
 
   return (
     <div id="contact" className="contactformContainer">
 
         <div className="hmuDiv">
-            <h1> HMU </h1>
+            <h1> Message me!</h1>
             <p2>Thanks for checking out my website. </p2>
             <p2>Feel free to leave a message and I will get back to you as soon as I can :)</p2>
         </div>
@@ -44,11 +45,11 @@ const Contact = () => {
             <StyledContactForm>
                 <form ref={form} onSubmit={sendEmail}>
                 <a style={{color: 'skyblue', alignSelf:'center'}} title="GitHub" target="_blank"><FaMailBulk/></a>
-                <label></label>
+                <label>Name</label>
                 <input type="text" placeHolder="name..." name="user_name" />
-                <label></label>
+                <label>Email</label>
                 <input type="email" placeHolder="email..." name="user_email" />
-                <label></label>
+                <label>Message</label>
                 <textarea placeholder="Send a message..." name="message" />
                 <input type="submit" value="Send" />
                 </form>
@@ -86,7 +87,7 @@ const StyledContactForm = styled.div`
     }
     a {
         font-size: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 5px;
     }
     textarea {
       max-width: 100%;
@@ -104,10 +105,9 @@ const StyledContactForm = styled.div`
     }
     label {
       margin-top: 1rem;
-      align-self: center;
       padding-bottom: 6px;
       font-weight: bold;
-      color: skyblue;
+      color: grey;
     }
     input[type="submit"] {
       margin-top: 2rem;

@@ -60,7 +60,7 @@ const Projects = () => {
 
 
             <div className="button-container">
-                <Link to="contact" spy={true} offset={-250} smooth={true} duration={500}>
+                <Link to="contact" spy={true} offset={-100} smooth={true} duration={500}>
                     <Button> 
                         Contact
                     </Button>
