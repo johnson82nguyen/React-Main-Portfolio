@@ -72,16 +72,17 @@ const Projects = () => {
             <h4>Hobbies/Interests:</h4>
             <ul>
                 <li>Obtain a blue belt in Brazilian Jiu Jitsu.</li>
-                <li>Go snowboarding on a mountain.</li>
+                <li>Go snowboarding in Europe mountain.</li>
                 <li>Play in a tennis tournament in California.</li>
                 <li>Play in a tennis tournament in Europe or Asia.</li>
                 <li>Cook a beef wellington from scratch.</li>
-                <li>Go see Hamilton the play.</li>
+                <li>Go see Hamilton the musical.</li>
                 <li>Max all levels in Old School RuneScape (MMORPG game I played as a kid and currently).</li>
                 <li>Travel to Korea/Japan/Sweden/Germany/Switzerland.</li>
                 <li>Own over 20 GitHub Repositories.</li>
                 <li>Start cycling.</li>
                 <li>Try Omakase.</li>
+                <li>Attend a NBA finals.</li>
                 <li>Attend a NFL SuperBowl.</li>
                 <li><strike> Attend a league of legends watch party. </strike> <b>(*Fall 2017, *Fall 2022)</b></li>
 
