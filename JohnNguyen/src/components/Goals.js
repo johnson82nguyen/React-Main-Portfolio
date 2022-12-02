@@ -43,11 +43,11 @@ const Projects = () => {
                 <li>Develop a video game professionally for a company.</li>
                 <li>Obtain a project management or leadership position/role in development.</li>
                 <li>Manage and run a large open-source project.</li>
-                <li>Be able to mentor Junior engineers.</li>
+                <li>Obtain a mentorship role to guide and assist new engineers.</li>
             </ul>
             <h4>Life goals:</h4>
             <ul>
-                <li><strike> Graduate College </strike> (* Spring 2020) </li>
+                <li><strike> Graduate College </strike> <b> (* Spring 2020) </b></li>
                 <li><strike>Treat my family and friends to dinner after landing my first career Software Engineering Job.</strike><b>(*Summer 2021)</b></li>
                 <li>Buy and own a house.</li>
                 <li>Buy and own a car.</li>
@@ -71,11 +71,12 @@ const Projects = () => {
             </ul>
             <h4>Hobbies/Interests:</h4>
             <ul>
-                <li>Obtain a blue belt in Brazilian Jiu Jitsu</li>
-                <li>Go snowboarding on a mountain</li>
-                <li>Play in a tennis tournament in California</li>
-                <li>Play in a tennis tournament in Europe or Asia</li>
-                <li>Cook a beef wellington from scratch</li>
+                <li>Obtain a blue belt in Brazilian Jiu Jitsu.</li>
+                <li>Go snowboarding on a mountain.</li>
+                <li>Play in a tennis tournament in California.</li>
+                <li>Play in a tennis tournament in Europe or Asia.</li>
+                <li>Cook a beef wellington from scratch.</li>
+                <li>Go see Hamilton the play.</li>
                 <li>Max all levels in Old School RuneScape (MMORPG game I played as a kid and currently).</li>
                 <li>Travel to Korea/Japan/Sweden/Germany/Switzerland.</li>
                 <li>Own over 20 GitHub Repositories.</li>
