@@ -69,7 +69,7 @@ ul#nav1 {
 }
 
 
-@media screen and (max-width:200px) {
+@media screen and (max-width:445px) {
     .header {
         max-width: 100%;
         background-color: rgba(0,0,0,.9);
@@ -85,7 +85,7 @@ ul#nav1 {
 
     .nav-menu {
         position: fixed;
-        left: -100%;
+        left: -200%;
         top: 90px;
         flex-direction: column;
         background-color: rgba(0,0,0,.9);
