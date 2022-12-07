@@ -14,13 +14,18 @@
 
 .goalsContainer {
     display: block;
-    justify-content: start;
+    justify-content: center;
     border: 5px solid black;
-    margin-left: 33%;
-    margin-right: 33%;
+    max-width: 100%;
     height: 20%;
+    text-align: center;
+    overflow: auto;
     
 
+}
+
+.goalsList {
+    list-style: none;
 }
 
 .goals-button-container {

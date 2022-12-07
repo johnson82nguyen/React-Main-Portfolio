@@ -36,7 +36,7 @@ const Projects = () => {
             <h1 style={{textAlign:"center"}}>Impossible list</h1>
             <h5>*Denotes Completed</h5>
             <h4>Career Goals:</h4>
-            <ul>
+            <ul className='goalsList'>
                 <li>Work for a FAANG company.</li>
                 <li><strike>Land my first Software Engineering Job.</strike> <b>(*Summer 2021)</b></li>
                 <li> <strike> Work for a startup </strike> <b> (*Summer 2021) </b></li>
@@ -46,7 +46,7 @@ const Projects = () => {
                 <li>Obtain a mentorship role to guide and assist new engineers.</li>
             </ul>
             <h4>Life goals:</h4>
-            <ul>
+            <ul className='goalsList'>
                 <li><strike> Graduate College </strike> <b> (* Spring 2020) </b></li>
                 <li><strike>Treat my family and friends to dinner after landing my first career Software Engineering Job.</strike><b>(*Summer 2021)</b></li>
                 <li>Buy and own a house.</li>
@@ -58,7 +58,7 @@ const Projects = () => {
             </ul>
 
             <h4>Health/Gym goals:</h4>
-            <ul>
+            <ul className='goalsList'>
                 <li>Run a 5-minute mile.</li>
                 <li>Run a marathon</li>
                 <li><strike> Bench 225 x 8 </strike> <b>(*Winter 2021)</b></li>
@@ -70,7 +70,7 @@ const Projects = () => {
                 <li>6 Pack</li>
             </ul>
             <h4>Hobbies/Interests:</h4>
-            <ul>
+            <ul className='goalsList'>
                 <li>Obtain a blue belt in Brazilian Jiu Jitsu.</li>
                 <li>Go snowboarding in Europe mountain.</li>
                 <li>Play in a tennis tournament in California.</li>
@@ -85,7 +85,6 @@ const Projects = () => {
                 <li>Attend a NBA finals.</li>
                 <li>Attend a NFL SuperBowl.</li>
                 <li><strike> Attend a league of legends watch party. </strike> <b>(*Fall 2017, *Fall 2022)</b></li>
-
             </ul>
 
         </div>

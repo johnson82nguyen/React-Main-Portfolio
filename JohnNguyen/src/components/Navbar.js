@@ -18,9 +18,8 @@ const Navbar = () => {
             </div>
 
                 <div className='hamburger' onClick={handleClick}>
-                    {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
-                        : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
-
+                    {click ? (<FaTimes size={0} style={{ color: '#ffffff' }} />)
+                        : (<FaBars size={0} style={{ color: '#ffffff' }} />)}
                 </div>
                 
                 <ul id="nav1" className={click ? "nav-menu active" : "nav-menu"}>
