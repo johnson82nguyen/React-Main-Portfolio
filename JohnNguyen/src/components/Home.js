@@ -72,7 +72,7 @@ const Home = () => {
             </div>
         
             <div className="button-container">
-                <Link to="about" spy={true} offset={-300} smooth={true} duration={500}>
+                <Link to="about" spy={true} offset={-150} smooth={true} duration={500}>
                     <Button> 
                         About Me
                     </Button>

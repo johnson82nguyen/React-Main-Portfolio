@@ -17,7 +17,7 @@
     justify-content: center;
     border: 5px solid black;
     max-width: 100%;
-    height: 20%;
+    height: 75vh;
     text-align: center;
     overflow: auto;
     
@@ -25,6 +25,7 @@
 }
 
 .goalsList {
+    font-size: 1vh;
     list-style: none;
 }
 
