@@ -30,6 +30,10 @@
         width: 100%;
     }
 
+    body {
+        margin-right: 0px;
+    }
+
     .project1 {
         width: 100% !important;
         margin-left: 0px !important;
