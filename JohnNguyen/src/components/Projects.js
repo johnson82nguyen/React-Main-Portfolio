@@ -17,7 +17,6 @@ const Projects = () => {
     padding: 20px 32px;
     border-radius: 5px;
     margin-top: 35px;
-    margin-bottom: 500px;
     border: 0;
     outline: 0;
     box-shadow: 0px 2px 2px lightgray;
@@ -25,7 +24,6 @@ const Projects = () => {
     font-family: sans-serif;
     font-weight: bold;
     border-outline: 0px;
-    margin-left: 48%;
     margin-top: 50px;
     &:hover {
         background-color: #9FD8EF;
@@ -63,7 +61,7 @@ const Projects = () => {
             </div>
 
 
-            <div className="button-container">
+            <div className="button-project-container">
                 <Link to="contact" spy={true} offset={-50} smooth={true} duration={500}>
                     <Button> 
                         Contact

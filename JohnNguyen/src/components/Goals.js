@@ -16,7 +16,6 @@ const Projects = () => {
     padding: 20px 32px;
     border-radius: 5px;
     margin-top: 35px;
-    margin-bottom: 500px;
     border: 0;
     outline: 0;
     box-shadow: 0px 2px 2px lightgray;
