@@ -28,43 +28,49 @@ const Home = () => {
    
     return (
         <div id="home" className="homeContainer">
-            <h1 className="header_name">
-                John Nguyen
-            </h1>
-            <h3 className="typewriter">
-            <Typewriter
-                options={{
-                    loop:true
-                }}
-                onInit={(typewriter) => {
-                typewriter
-                .changeDelay(30)
-                .typeString("Hello!")
-                .pauseFor(2000)
-                .deleteAll()
-                .typeString("I'm a Software Engineer")
-                .pauseFor(1000)
-                .changeDeleteSpeed(30)
-                .deleteChars(17)
-                .typeString("web developer")
-                .pauseFor(1000)
-                .deleteChars(13)
-                .typeString("basketball/tennis player")
-                .pauseFor(1000)
-                .deleteChars(24)
-                .typeString("gamer")
-                .pauseFor(1000)
-                .deleteChars(5)
-                .typeString("martial artist")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Welcome to my website!")
-                .pauseFor(5000)
-                .start();
-            }}
-            />
-            </h3>
 
+            <div className='header-div'>
+                <h1 className="header_name">
+                    John Nguyen
+                </h1>
+            </div>
+            
+            <div className="typeWriter-div">
+                <h3 className="typewriter">
+                    <Typewriter
+                    options={{
+                        loop:true
+                    }}
+                    onInit={(typewriter) => {
+                        typewriter
+                        .changeDelay(30)
+                        .typeString("Hello!")
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("I'm a Software Engineer")
+                        .pauseFor(1000)
+                        .changeDeleteSpeed(30)
+                        .deleteChars(17)
+                        .typeString("web developer")
+                        .pauseFor(1000)
+                        .deleteChars(13)
+                        .typeString("basketball/tennis player")
+                        .pauseFor(1000)
+                        .deleteChars(24)
+                        .typeString("gamer")
+                        .pauseFor(1000)
+                        .deleteChars(5)
+                        .typeString("martial artist")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Welcome to my website!")
+                        .pauseFor(5000)
+                        .start();
+                    }}
+                    />
+                </h3>    
+            </div>
+        
             <div className="button-container">
                 <Link to="about" spy={true} offset={-300} smooth={true} duration={500}>
                     <Button> 
@@ -72,6 +78,7 @@ const Home = () => {
                     </Button>
                 </Link>
             </div>
+            
         </div>
     )
 }

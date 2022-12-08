@@ -1,13 +1,14 @@
 .homeContainer {
-    display: grid;
+    display: flex;
     justify-content: center;
     text-align: center;
     align-items:center;
     margin: auto;
     overflow: hidden;
-    padding-top: 500px;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
 }
-
 
 .header_name {
     font-size: 100px;
