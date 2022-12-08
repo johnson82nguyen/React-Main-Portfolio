@@ -36,9 +36,9 @@ const Contact = () => {
     <div id="contact" className="contactformContainer">
 
         <div className="hmuDiv">
-            <h1> Message me!</h1>
-            <p2>Thanks for checking out my website. </p2>
-            <p2>Feel free to leave a message and I will get back to you as soon as I can :)</p2>
+            <h1 style={{fontSize:'3vh'}}> HMU</h1>
+            <p2 style={{fontSize:'1.5vh'}}>Thanks for checking out my website. </p2>
+            <p2 style={{fontSize:'1.5vh'}}>Feel free to leave a message and I will get back to you as soon as I can :)</p2>
         </div>
 
         <div className="contactFormDiv">
@@ -64,8 +64,9 @@ export default Contact;
 
 // Styles
 const StyledContactForm = styled.div`
-  width: 400px;
+  width: 25vh;
   display: flex;
+  margin:auto;
   justify-content: center;
   form {
     background-color: white;
@@ -73,7 +74,7 @@ const StyledContactForm = styled.div`
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
-    font-size: 16px;
+    font-size: 1.25vh;
     input {
       width: 100%;
       height: 35px;
