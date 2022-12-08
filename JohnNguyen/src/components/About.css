@@ -1,15 +1,17 @@
 .about {
-    width: 100%;
-    margin-top: 1000px;
+    display: flex;
+    width: auto;
     padding-top: 45px;
+    padding-bottom: 5vh;
     align-items: center;
     text-align: center;
-    height: 500px;
+    height: auto;
     background-color: #8dde8d;
-    margin-bottom: 500px;
+    margin-bottom: 50vh;
     color: white;
     font-family: sans-serif;
     position: relative;
+    flex-direction: column;
 }
 
 .paragraph1 {
