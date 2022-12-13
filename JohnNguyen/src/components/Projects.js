@@ -35,32 +35,25 @@ const Projects = () => {
             <div className="portfolioHeader"> 
                 <h1>Portfolio</h1> 
             </div>
-
-
             <div id="project1" onClick={() => {
                 window.open("https://github.com/johnson82nguyen/BattleShip", "_blank_");
             }} className="project1">
 
-            <h1>BattleShip</h1>
-            <span>Java project consists of good understanding of object oriented design and multiple dimensional matrices. </span>
-            
+                <h1>BattleShip</h1>
+                <span>Java project consists of good understanding of object oriented design and multiple dimensional matrices. </span>
             </div>
-
             <div id="project2" onClick={(
             ) => {
                 window.open("https://github.com/johnson82nguyen/new_website", "_blank_")
             }} className="project2">
            
-            <h1>Personal Website</h1>
-            <span>Built with React.js framework and node.js server. Hosted on Netlify</span>
+                <h1>Personal Website</h1>
+                <span>Built with React.js framework and node.js server. Hosted on Netlify</span>
             </div>
-
             <div className="project3">
-            <h1>Python</h1>
-            <span>Simple python project utilizing PyTurtle module. This was my first programming assignment in college.</span>
+                <h1>Python</h1>
+                <span>Simple python project utilizing PyTurtle module. This was my first programming assignment in college.</span>
             </div>
-
-
             <div className="button-project-container">
                 <Link to="contact" spy={true} offset={-50} smooth={true} duration={500}>
                     <Button> 

@@ -1,12 +1,9 @@
 import React from 'react';
 import './Goals.css';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-import samplePDF from '../pages/goals.pdf';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 const Projects = () => {
-
 
     const Button = styled.button`
     background-color: skyblue;
@@ -27,7 +24,6 @@ const Projects = () => {
         background-color: #9FD8EF;
     }
     `
-
     return (
         <>
         <h1 className="goalsHeader">Goals</h1>
@@ -85,9 +81,7 @@ const Projects = () => {
                 <li>Attend a NFL SuperBowl.</li>
                 <li><strike> Attend a league of legends watch party. </strike> <b>(*Fall 2017, *Fall 2022)</b></li>
             </ul>
-
         </div>
-
         <div className="goals-button-container">
             <Link to="portfolio" spy={true} offset={-100} smooth={true} duration={500}>
                 <Button> 

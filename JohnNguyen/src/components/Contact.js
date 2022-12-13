@@ -9,26 +9,25 @@ import { Link } from "react-scroll";
 
 const Contact = () => {
 
-
-    const Button = styled.button`
-        background-color: #DCDCDC;
-        color: white;
-        text-align: center;
-        align-items: center;
-        padding: 20px 32px;
-        border-radius: 5px;
-        margin-bottom: 2vh;
-        border: 0;
-        outline: 0;
-        box-shadow: 0px 2px 2px lightgray;
-        transition: ease background-color 250ms;
-        font-family: sans-serif;
-        font-weight: bold;
-        border-outline: 0px;
-        &:hover {
-            background-color: #E0E0E0;
-        }
-    `
+  const Button = styled.button`
+    background-color: #DCDCDC;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 20px 32px;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 2px 2px lightgray;
+    transition: ease background-color 250ms;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-outline: 0px;
+    &:hover {
+      background-color: #E0E0E0;
+    }
+  `
 
   const form = useRef();
 
@@ -57,13 +56,11 @@ const Contact = () => {
 
   return (
     <div id="contact" className="contactformContainer">
-
         <div className="hmuDiv">
             <h1 style={{fontSize:'3vh'}}> HMU</h1>
             <p2 style={{fontSize:'1.5vh'}}>Thanks for checking out my website. </p2>
             <p2 style={{fontSize:'1.5vh'}}>Feel free to leave a message and I will get back to you as soon as I can :)</p2>
         </div>
-
         <div className="contactFormDiv">
             <StyledContactForm>
                 <form ref={form} onSubmit={sendEmail}>
@@ -78,7 +75,6 @@ const Contact = () => {
                 </form>
             </StyledContactForm>
         </div>
-
         <div className="button-container">
                 <Link to="home" spy={true} offset={-150} smooth={true} duration={500}>
                     <Button> 
@@ -86,7 +82,6 @@ const Contact = () => {
                     </Button>
                 </Link>
             </div>
-        
     </div>
   );
 };

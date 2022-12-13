@@ -25,16 +25,14 @@ const Home = () => {
             background-color: #9FD8EF;
         }
     `
-   
+
     return (
         <div id="home" className="homeContainer">
-
             <div className='header-div'>
                 <h1 className="header_name">
                     John Nguyen
                 </h1>
-            </div>
-            
+            </div> 
             <div className="typeWriter-div">
                 <h3 className="typewriter">
                     <Typewriter
@@ -70,7 +68,6 @@ const Home = () => {
                     />
                 </h3>    
             </div>
-        
             <div className="button-container">
                 <Link to="about" spy={true} offset={-60} smooth={true} duration={500}>
                     <Button> 
@@ -78,7 +75,6 @@ const Home = () => {
                     </Button>
                 </Link>
             </div>
-            
         </div>
     )
 }

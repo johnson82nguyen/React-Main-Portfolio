@@ -43,16 +43,14 @@ const About = () => {
                      <p className="paragraph1"> My other hobbies also include tennis, basketball, video games, e-sports, and I just started picking up Brazilian Jiu Jitsu.</p>
                 </div>
             </div>
-
             <h3 className="socials">Connect with me</h3>
             <div className="aboutMeIcons"> 
-                <a href="https://github.com/johnson82nguyen" style={{color: 'gray'}} title="GitHub" target="_blank"><FaGithub/></a>
-                <a href="https://www.linkedin.com/in/johnson-nguyen82/" style={{color: 'skyblue'}} title="LinkedIn" target="_blank"><FaLinkedin/></a>
-                <a href="https://www.instagram.com/j_nguyen32" style={{color: 'pink'}} title="Instagram" target="_blank"><FaInstagram/></a>
-                <a href="https://open.spotify.com/user/king.johnson2015" style={{color: 'white'}} title="Spotify" target="_blank"><FaSpotify/></a>
-                <a href="https://twitter.com/j_nguyen32" style={{color: '#89cff0'}} title="Twitter" target="_blank"><FaTwitterSquare/></a>
+                <a href="https://github.com/johnson82nguyen" style={{color: 'gray'}} title="GitHub" target="_blank" rel="noreferrer"><FaGithub/></a>
+                <a href="https://www.linkedin.com/in/johnson-nguyen82/" style={{color: 'skyblue'}} title="LinkedIn" target="_blank" rel="noreferrer"><FaLinkedin/></a>
+                <a href="https://www.instagram.com/j_nguyen32" style={{color: 'pink'}} title="Instagram" target="_blank" rel="noreferrer"><FaInstagram/></a>
+                <a href="https://open.spotify.com/user/king.johnson2015" style={{color: 'white'}} title="Spotify" target="_blank" rel="noreferrer"><FaSpotify/></a>
+                <a href="https://twitter.com/j_nguyen32" style={{color: '#89cff0'}} title="Twitter" target="_blank" rel="noreferrer"><FaTwitterSquare/></a>
             </div>
-            
             <div className="button-container">
                 <Link to="goals" spy={true} offset={-200} smooth={true} duration={500}>
                     <Button> 
