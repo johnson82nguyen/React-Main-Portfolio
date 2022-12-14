@@ -64,7 +64,7 @@ const Contact = () => {
         <div className="contactFormDiv">
             <StyledContactForm>
                 <form ref={form} onSubmit={sendEmail}>
-                <a style={{color: 'skyblue', alignSelf:'center'}} title="GitHub" target="_blank"><FaMailBulk/></a>
+                <span style={{color: 'skyblue', alignSelf:'center'}} title="GitHub" target="_blank"><FaMailBulk/></span>
                 <label>Name</label>
                 <input type="text" placeHolder="name..." name="user_name" />
                 <label>Email</label>
@@ -90,7 +90,7 @@ export default Contact;
 
 // Styles
 const StyledContactForm = styled.div`
-  width: 25vh;
+  width: 600px;
   display: flex;
   margin:auto;
   justify-content: center;
@@ -117,10 +117,8 @@ const StyledContactForm = styled.div`
         margin-bottom: 5px;
     }
     textarea {
-      max-width: 100%;
-      min-width: 100%;
       width: 100%;
-      max-height: 500px;
+      height: 200px;
       padding: 7px;
       outline: none;
       border-radius: 5px;

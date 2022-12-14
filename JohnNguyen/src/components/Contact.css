@@ -17,13 +17,16 @@
 }
 
 @media screen and (max-width:445px) {
-    .contactformContainer {
-        
-    }
-
     .hmuDiv {
         margin-top: 20px;
     }
+}
+
+@media screen and (max-height: 1000px) {
+    .contactformContainer {
+        height: 100%;
+    }
+    
 }
 
 .contactFormDiv {
