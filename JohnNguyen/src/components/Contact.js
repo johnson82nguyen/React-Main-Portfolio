@@ -57,9 +57,9 @@ const Contact = () => {
   return (
     <div id="contact" className="contactformContainer">
         <div className="hmuDiv">
-            <h1 style={{fontSize:'40px'}}> HMU</h1>
-            <p2 style={{fontSize:'24px'}}>Thanks for checking out my website. </p2>
-            <p2 style={{fontSize:'24px'}}>Feel free to leave a message and I will get back to you as soon as I can :)</p2>
+            <h1 className="h1hmu"> HMU</h1>
+            <p2 className="p2thanks">Thanks for checking out my website. </p2>
+            <p2 className="p2thanks">Feel free to leave a message and I will get back to you as soon as I can :)</p2>
         </div>
         <div className="contactFormDiv">
             <StyledContactForm>
@@ -99,7 +99,8 @@ const StyledContactForm = styled.div`
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
+    height: 50%;
     font-size: 16px;
     input {
       width: 100%;

@@ -20,12 +20,26 @@
     .hmuDiv {
         margin-top: 20px;
     }
+
+    .h1hmu {
+        font-size: 20px;
+    }
+
+    .p2thanks {
+        font-size: 16px;
+    }
+
+    form {
+        height: 400px !important;
+    }
 }
 
 @media screen and (max-height: 1000px) {
     .contactformContainer {
         height: 100%;
     }
+    
+    
     
 }
 
