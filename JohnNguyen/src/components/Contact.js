@@ -57,9 +57,9 @@ const Contact = () => {
   return (
     <div id="contact" className="contactformContainer">
         <div className="hmuDiv">
-            <h1 style={{fontSize:'3vh'}}> HMU</h1>
-            <p2 style={{fontSize:'1.5vh'}}>Thanks for checking out my website. </p2>
-            <p2 style={{fontSize:'1.5vh'}}>Feel free to leave a message and I will get back to you as soon as I can :)</p2>
+            <h1 style={{fontSize:'40px'}}> HMU</h1>
+            <p2 style={{fontSize:'24px'}}>Thanks for checking out my website. </p2>
+            <p2 style={{fontSize:'24px'}}>Feel free to leave a message and I will get back to you as soon as I can :)</p2>
         </div>
         <div className="contactFormDiv">
             <StyledContactForm>
@@ -81,8 +81,8 @@ const Contact = () => {
                         Back to top
                     </Button>
                 </Link>
-            </div>
-    </div>
+        </div>
+     </div>
   );
 };
 
@@ -100,11 +100,11 @@ const StyledContactForm = styled.div`
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
-    font-size: 1.25vh;
+    font-size: 16px;
     input {
       width: 100%;
       height: 35px;
-      padding: 7px;
+      padding: 12px;
       outline: none;
       border-radius: 5px;
       border: 1px solid rgb(220, 220, 220);
@@ -120,8 +120,7 @@ const StyledContactForm = styled.div`
       max-width: 100%;
       min-width: 100%;
       width: 100%;
-      max-height: 100px;
-      min-height: 100px;
+      max-height: 500px;
       padding: 7px;
       outline: none;
       border-radius: 5px;

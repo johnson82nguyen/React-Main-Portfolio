@@ -1,27 +1,39 @@
 .contactformContainer {
-    display: block;
+    display: flex;
     justify-content: center;
     text-align: center;
     background-color: #8dde8d;
     padding-top: 1%;
-    margin-bottom: 5vh;
     color: white;
+    height: 100vh;
+    flex-direction: column;
 } 
 
 .hmuDiv {
+    margin-top: -200px;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width:445px) {
+    .contactformContainer {
+        
+    }
+
+    .hmuDiv {
+        margin-top: 20px;
+    }
 }
 
 .contactFormDiv {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 form {
-    padding: 50px;
+    padding: 70px;
     border-radius: 50px;
-    margin-bottom: 100px;
 }
