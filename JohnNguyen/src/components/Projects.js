@@ -1,8 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import { useState } from 'react';
-import background from '../images/free_image.jpg';
-import { FaExternalLinkAlt, FaWeight } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
 

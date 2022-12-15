@@ -5,8 +5,6 @@ import styled from "styled-components";
 import { FaMailBulk } from 'react-icons/fa';
 import { Link } from "react-scroll";
 
-// npm i @emailjs/browser
-
 const Contact = () => {
 
   const Button = styled.button`
