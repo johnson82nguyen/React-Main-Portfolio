@@ -5,12 +5,12 @@
     background-color: #8dde8d;
     padding-top: 1%;
     color: white;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
 } 
 
 .hmuDiv {
-    margin-top: -200px;
+    margin-top: -150px;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 40px;

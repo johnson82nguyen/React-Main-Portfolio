@@ -24,7 +24,7 @@ const Navbar = () => {
                         <Link to="home" spy={true} smooth={true} offset={-30} duration={500} onclick={closeMenu}> Home </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="about" spy={true} offset={-80} smooth={true} exact='true' duration={500} onclick={closeMenu}> About </Link>
+                        <Link to="about" spy={true} offset={-300} smooth={true} exact='true' duration={500} onclick={closeMenu}> About </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="goals" spy={true} offset={-190} smooth={true} duration={500} onclick={closeMenu}> Goals </Link>
