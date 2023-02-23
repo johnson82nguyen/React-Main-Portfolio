@@ -11,7 +11,7 @@ Johnsonnguyen.netlify.app
 ```
 
 
-# How to clone my website?
+# How to get my website?
 
 You can use my website by simply cloning it into your local machine. Start by running 
 
@@ -27,6 +27,10 @@ Once you have this cloned onto your local machine, make sure you download all de
 npm install
 ```
 
+
+# Conclusion
+
+I had a lot of fun making this project as I get to not only showcase my skills in JavaScript, HTML, CSS and React, but I also get to show you guys a part of who I am and what makes me who I am today. Anyways, I hope you guys enjoy and feel free to drop me a message!
 
 
 
