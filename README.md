@@ -11,3 +11,22 @@ Johnsonnguyen.netlify.app
 ```
 
 
+# How to clone my website?
+
+You can use my website by simply cloning it into your local machine. Start by running 
+
+
+```bash
+git clone https://github.com/johnson82nguyen/JohnNguyen2023.git
+```
+
+Once you have this cloned onto your local machine, make sure you download all dependencies on this project. To do this, you can run
+
+
+```bash
+npm install
+```
+
+
+
+
