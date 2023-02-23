@@ -4,8 +4,6 @@ import { Link } from 'react-scroll';
 import styled from 'styled-components';
 
 const Projects = () => {
-
-
     const Button = styled.button`
     background-color: skyblue;
     color: white;
@@ -26,7 +24,6 @@ const Projects = () => {
         background-color: #9FD8EF;
     }
     `
-
     return (
         <div id="portfolio" className="projectsContainer">
             <div className="portfolioHeader"> 
@@ -58,8 +55,6 @@ const Projects = () => {
                     </Button>
                 </Link>
             </div>
-
-
         </div>
     )
 }

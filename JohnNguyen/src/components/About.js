@@ -29,7 +29,7 @@ const About = () => {
             background-color: #E0E0E0;
         }
     `
-
+    
     return (
         <div className='about' id='about'>
             <div className='container'>

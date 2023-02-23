@@ -72,7 +72,7 @@ const Projects = () => {
                 <li>Play in a tennis tournament in Europe or Asia.</li>
                 <li>Cook a beef wellington from scratch.</li>
                 <li>Go see Hamilton the musical.</li>
-                <li>Max all levels in Old School RuneScape (MMORPG game I played as a kid and currently).</li>
+                <li><strike> Max all levels in Old School RuneScape (MMORPG game I played as a kid and currently). </strike></li>
                 <li>Travel to Korea/Japan/Sweden/Germany/Switzerland.</li>
                 <li>Own over 20 GitHub Repositories.</li>
                 <li>Start cycling.</li>

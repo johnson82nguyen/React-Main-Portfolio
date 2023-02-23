@@ -13,7 +13,6 @@
     text-align: center;
 }
 
-
 @media screen and (max-width:760px) {
     .projectsContainer {
         margin-top: 5vh;
@@ -129,32 +128,4 @@
     transition: .3s ease-in;
     color:black;
     filter: brightness(30%);
-}
-
-.project4 {
-    border: 2px solid black;
-    margin: 5px;
-    height: 400px;
-    width: 30%;
-    text-align:center;
-    margin-left: 5%;
-    float:left;
-}
-
-.project5 {
-    border: 2px solid black;
-    margin: 5px;
-    height: 400px;
-    width: 30%;
-    text-align:center;
-    float: left;
-}
-
-.project6 {
-    border: 2px solid black;
-    margin: 5px;
-    height: 400px;
-    width: 30%;
-    text-align:center;
-    float: left;
 }

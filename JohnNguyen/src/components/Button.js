@@ -5,10 +5,8 @@ import { Link } from 'react-router-dom';
 {/* Array of styles */}
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
-
 {/* Array of sizes */}
 const SIZES = ['btn--medium', 'btn--large'];
-
 
 {/* My Button */}
 export const Button = ({
