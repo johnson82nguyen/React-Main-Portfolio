@@ -48,10 +48,10 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-      e.target.reset();
+      // e.target.reset();
       alert("Thanks for sending a message!");
   };
-
+  
   return (
     <div id="contact" className="contactformContainer">
         <div className="hmuDiv">
@@ -64,11 +64,11 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                 <span style={{color: 'skyblue', alignSelf:'center'}} title="GitHub" target="_blank"><FaMailBulk/></span>
                 <label>Name</label>
-                <input type="text" placeHolder="name..." name="user_name" />
+                <input type="text" required placeholder="name..." name="user_name" />
                 <label>Email</label>
-                <input type="email" placeHolder="email..." name="user_email" />
+                <input type="email" required placeholder="email..." name="user_email" />
                 <label>Message</label>
-                <textarea placeholder="Send a message..." name="message" />
+                <textarea placeholder="Send a message..." required name="message" />
                 <input type="submit" value="Send" />
                 </form>
             </StyledContactForm>

@@ -69,7 +69,7 @@ const Home = () => {
                 </h3>    
             </div>
             <div className="button-container">
-                <Link to="about" spy={true} offset={-60} smooth={true} duration={500}>
+                <Link to="about" spy={true} offset={-200} smooth={true} duration={500}>
                     <Button> 
                         About Me
                     </Button>
