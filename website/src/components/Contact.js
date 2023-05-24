@@ -56,8 +56,8 @@ const Contact = () => {
     <div id="contact" className="contactformContainer">
         <div className="hmuDiv">
             <h1 className="h1hmu"> HMU</h1>
-            <p2 className="p2thanks">Thanks for checking out my website. </p2>
-            <p2 className="p2thanks">Feel free to leave a message and I will get back to you as soon as I can :)</p2>
+            <p className="p2thanks">Thanks for checking out my website. </p>
+            <p className="p2thanks">Feel free to leave a message and I will get back to you as soon as I can :)</p>
         </div>
         <div className="contactFormDiv">
             <StyledContactForm>

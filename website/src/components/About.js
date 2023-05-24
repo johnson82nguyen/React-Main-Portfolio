@@ -37,10 +37,9 @@ const About = () => {
                     <h2 className="aboutHeader">About</h2>
                     <span className='line'></span>
                     <p className="paragraph1">Hi my name is John Nguyen. I am a software engineer and a
-                    graduate from the University Of Minnesota Twin-Cities. </p>
-                     <p className="paragraph1"> I'm passionate about building software applications and am excited to learn new technologies and make new friends on this journey. </p>
-                     <p className="paragraph1"> Outside of work, I like to spend time with my girlfriend, explore foods, events, parks, and beaches around Los Angeles.</p>
-                     <p className="paragraph1"> My other hobbies also include tennis, basketball, video games, e-sports, and I just started picking up Brazilian Jiu Jitsu.</p>
+                        graduate from the University Of Minnesota Twin-Cities. I'm passionate about building software applications and am excited to learn new technologies and make new friends on this journey.
+                      Outside of work, I like to spend time with my girlfriend, explore foods, events, parks, and beaches around Los Angeles.
+                      My other hobbies also include tennis, basketball, video games, e-sports, and I just started picking up Brazilian Jiu Jitsu. </p>
                 </div>
             </div>
             <h3 className="socials">Connect with me</h3>
