@@ -7,7 +7,7 @@
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
-    background-color: skyblue;
+    background-color: red;
 }
 
 ul#nav1 {
