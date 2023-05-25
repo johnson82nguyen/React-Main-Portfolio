@@ -13,7 +13,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width:445px) {
+@media screen and (min-width:375x) {
     .about {
         height: 100%;
     }
@@ -21,8 +21,9 @@
 
 .paragraph1 {
     font-weight: bold;
-    font-size: 20px;
-    width: 50%;
+    font-size: 18px;
+    min-width: 375px;
+    max-width: 75%;
     margin: auto;
     text-align: center;
 }
