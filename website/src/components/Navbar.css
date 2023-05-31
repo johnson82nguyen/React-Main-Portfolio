@@ -7,7 +7,6 @@
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
-    background-color: skyblue;
 }
 
 ul#nav1 {
@@ -49,7 +48,7 @@ ul#nav1 {
 
 .header .nav-item {
     align-items: flex-end;
-    padding: 1rem;
+    padding: 1rem;    
     font-family: sans-serif;
     font-weight: bold;
     transition: width 2s;
