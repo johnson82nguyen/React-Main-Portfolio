@@ -27,6 +27,14 @@ Once you have this cloned onto your local machine, make sure you download all de
 npm install
 ```
 
+Navigate into the website folder then run 
+
+```bash
+npm start
+```
+
+voila!
+
 
 # Conclusion
 
