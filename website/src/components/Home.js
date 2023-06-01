@@ -30,7 +30,7 @@ const Home = () => {
         <div id="home" className="homeContainer">
             <div className='header-div'>
                 <h1 className="header_name">
-                    Johnson Nguyen
+                    John Nguyen
                 </h1>
             </div> 
             <div className="typeWriter-div">
