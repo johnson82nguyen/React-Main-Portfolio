@@ -68,7 +68,6 @@ ul#nav1 {
 @media screen and (max-width:445px) {
     .header {
         max-width: 100%;
-        background-color: skyblue;
     }
 
     .header .navbar {
@@ -77,6 +76,10 @@ ul#nav1 {
 
     .hamburger {
         display: block;
+    }
+
+    svg {
+        color: skyblue !important;
     }
 
     .nav-menu {
