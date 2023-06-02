@@ -20,9 +20,9 @@ const Navbar = () => {
             <nav className='navbar'>
             <div className="logo">
             </div>
-                <div className='hamburger' onClick={handleClick}>
+                <div id="bars" className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={0} style={{ color: '#ffffff' }} />)
-                        : (<FaBars size={0} style={{ color: '#ffffff' }} />)}
+                        : (<FaBars id="bars" size={0} style={{ color: '#ffffff' }} />)}
                 </div>
                 <ul id="nav1" className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
